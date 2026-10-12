@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrey | SR Fábrica de Óculos - Jandira Plaza</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+
+    <div class="card-container">
+
+      <!-- Topo da Marca -->
+      <header class="brand-header">
+        <div class="brand-pill">
+          <span class="brand-name">SR FÁBRICA DE ÓCULOS</span>
+          <span class="brand-loc"><i class="fa-solid fa-location-dot"></i> Jandira Plaza</span>
+        </div>
+
+        <!-- Perfil do Consultor -->
+        <div class="profile-box">
+          <div class="consultant-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <div class="consultant-details">
+            <h1>Andrey</h1>
+            <p class="role">Especialista em Consultoria Óptica</p>
+            <div class="status-badge">
+              <span class="status-dot"></span> Atendimento no Balcão
+            </div>
+          </div>
+        </div>
+
+        <div id="dynamic-greeting" class="slogan-box">
+          <span>"Isso é viver bem"</span> • Seja bem-vindo!
+        </div>
+      </header>
+
+      <!-- Ações Principais de Contato (CTAs) -->
+      <section class="actions-section">
+        <a href="https://wa.me/551147892066?text=Olá%20Andrey!%20Vim%20pelo%20QR%20Code%20da%20SR%20Fábrica%20de%20Óculos%20e%20gostaria%20de%20atendimento." target="_blank" class="btn-main wa-btn">
+          <div class="btn-icon-box">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="btn-text">
+            <strong>Falar com o Andrey</strong>
+            <span>Atendimento imediato via WhatsApp</span>
+          </div>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </a>
+
+        <a href="https://wa.me/551147892066?text=Olá%20Andrey!%20Gostaria%20de%20enviar%20minha%20receita%20médica%20para%20fazer%20um%20orçamento." target="_blank" class="btn-main">
+          <div class="btn-icon-box red-icon">
+            <i class="fa-solid fa-file-prescription"></i>
+          </div>
+          <div class="btn-text">
+            <strong>Orçamento &amp; Envio de Receita</strong>
+            <span>Envie sua receita e cote na hora</span>
+          </div>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </a>
+      </section>
+
+      <!-- Catálogo de Lentes, Tecnologias e Preços (Acordeon) -->
+      <section class="catalog-section">
+        <button class="catalog-accordion-btn" id="catalog-toggle">
+          <div class="catalog-btn-content">
+            <i class="fa-solid fa-glasses"></i>
+            <div>
+              <strong>Tabela de Lentes &amp; Tecnologias</strong>
+              <span>Acrílico, Policarbonato, Resinas &amp; Hidroflex</span>
+            </div>
+          </div>
+          <i class="fa-solid fa-chevron-down" id="chevron-icon"></i>
+        </button>
+
+        <div class="catalog-dropdown" id="catalog-content">
+
+          <!-- Cards de Preços -->
+          <div class="price-cards-grid">
+            <div class="p-card featured">
+              <div class="badge-tag">Mais Procurado</div>
+              <div class="p-title"><i class="fa-solid fa-shield-halved"></i> Lentes com Tratamento</div>
+              <div class="p-price">A partir de <strong>R$ 298,00</strong></div>
+              <p class="p-desc">Já incluso <strong>Antirreflexo</strong> e <strong>Filtro de Luz Azul</strong>.</p>
+            </div>
+
+            <div class="p-card">
+              <div class="p-title"><i class="fa-solid fa-bullseye"></i> Lentes Multifocais</div>
+              <div class="p-price">A partir de <strong>R$ 896,00</strong></div>
+              <p class="p-desc">Visão perfeita e contínua para perto e longe.</p>
+            </div>
+
+            <div class="p-card promo-card">
+              <div class="p-title"><i class="fa-solid fa-circle-dot"></i> Lente de Contato Hidroflex</div>
+              <div class="p-price"><strong>R$ 219,00</strong></div>
+              <p class="p-desc highlight-promo"><i class="fa-solid fa-tags"></i> <strong>SUPER COMBO:</strong> Compre 4, Pague 3!</p>
+            </div>
+          </div>
+
+          <!-- Lista de Materiais -->
+          <div class="materials-box">
+            <h4>🔍 Nossos Materiais &amp; Índices de Redução:</h4>
+            <ul>
+              <li><strong>Acrílico:</strong> Excelente custo-benefício para o dia a dia.</li>
+              <li><strong>Policarbonato:</strong> Mais leve, alta resistência e segurança contra impactos.</li>
+              <li><strong>Resinas de Alto Índice (1.67, 1.71, 1.74):</strong> Lentes consideravelmente mais finas.</li>
+              <li><strong>Novidade 1.76:</strong> A resina <strong>mais fina do mercado</strong> para quem tem alto grau de miopia!</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Links Úteis -->
+      <section class="links-section">
+        <a href="https://maps.google.com/?q=Oticas+SR+Jandira+Plaza" target="_blank" class="sub-link">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <span>Visite a Loja no Jandira Plaza</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <a href="https://www.oticasr.com.br" target="_blank" class="sub-link">
+          <i class="fa-solid fa-globe"></i>
+          <span>Portal Oficial Óticas SR</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </section>
+
+      <!-- Rodapé -->
+      <footer class="card-footer">
+        <button id="btn-share" class="share-btn">
+          <i class="fa-solid fa-share-nodes"></i> Compartilhar Cartão Digital
+        </button>
+        <p class="copy">© 2026 SR Fábrica de Óculos • Jandira Plaza</p>
+      </footer>
+
+    </div>
+
+    <!-- Toast de Notificação -->
+    <div id="toast" class="toast">Link copiado para a área de transferência!</div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
